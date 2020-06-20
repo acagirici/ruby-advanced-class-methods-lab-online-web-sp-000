@@ -6,7 +6,7 @@ class Song
     @@all
   end
   
-  def self.create(name)
+  def self.create (name)
     song = self.new
     song.name = name
     @@all << song
