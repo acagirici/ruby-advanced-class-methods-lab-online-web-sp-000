@@ -5,11 +5,12 @@ class Song
   def self.all
     @@all
   end
+  
   def self.create(name)
     song = self.new
     song.name = name
     @@all << song
-    
+    return song.new
   end
   
   def save
