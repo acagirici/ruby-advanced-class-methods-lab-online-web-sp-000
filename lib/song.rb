@@ -33,6 +33,7 @@ class Song
     @@all.find {|a| a.name == name}
   else
     false
+  end 
   end
   
 end
